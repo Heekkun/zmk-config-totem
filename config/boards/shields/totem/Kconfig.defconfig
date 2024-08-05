@@ -12,7 +12,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
 config ZMK_BLE
     default n
 
-config ZMK_USB
+config ZMK_SPLIT_WIRED
     default y
 
 endif
