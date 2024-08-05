@@ -23,10 +23,3 @@ config ZMK_BLE
 	default n
 
 endif
-
-if SHIELD_TOTEM_RIGHT
- 
-config ZMK_SPLIT_ROLE_PERIPHERAL
-    default y
-
-endif
