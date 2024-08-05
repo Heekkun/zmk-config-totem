@@ -8,6 +8,10 @@ config ZMK_KEYBOARD_NAME
     
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
+
+config ZMK_BLE
+    default n
+
 config ZMK_USB
     default y
 
@@ -16,6 +20,12 @@ endif
 if SHIELD_TOTEM_LEFT || SHIELD_TOTEM_RIGHT
 
 config ZMK_SPLIT
+    default y
+
+config ZMK_BLE
+    default n
+
+config ZMK_SPLIT_WIRED
     default y
 
 endif
