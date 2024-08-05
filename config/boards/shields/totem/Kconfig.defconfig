@@ -15,9 +15,6 @@ config ZMK_SPLIT
 config ZMK_USB
     default y
 
-config ZMK_SPLIT_BLE
-    default n
-
 endif
 
 if SHIELD_TOTEM_RIGHT
@@ -33,8 +30,5 @@ config ZMK_SPLIT
 
 config ZMK_USB
     default y
-
-config ZMK_SPLIT_BLE
-    default n
 
 endif
