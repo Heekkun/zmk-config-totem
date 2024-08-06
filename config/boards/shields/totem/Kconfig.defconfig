@@ -16,7 +16,7 @@ endif
 
 if SHIELD_TOTEM_LEFT || SHIELD_TOTEM_RIGHT
 
-config ZMK_SPLIT
+config ZMK_SPLIT_USB
     default y
 
 config ZMK_BLE
