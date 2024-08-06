@@ -16,6 +16,9 @@ endif
 
 if SHIELD_TOTEM_LEFT || SHIELD_TOTEM_RIGHT
 
+config ZMK_SPLIT
+    default y
+
 config ZMK_BLE
 	default n
 
